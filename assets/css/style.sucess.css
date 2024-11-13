@@ -1,0 +1,81 @@
+img {
+    width: 15%;
+}
+
+
+#section_img {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: -30px;
+} 
+
+h1 {
+    text-align: center;
+    color: #5e7ba9 ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    text-align: center;
+    margin-top: 4px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+#botão_ {
+    
+        text-align: center;
+        width: 150px;
+        border-radius: 5px;
+        background: color #32425b;;
+        border: #32425b;
+        margin: auto;
+        margin-top: 3px;
+        color: #32425b;
+        
+    }
+
+
+#div_01 {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+    animation-timing-function: linear;
+    margin-top: 15px;
+}
+
+@keyframes spin {
+    form {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+#header {
+    width: 100%;
+    height: 210px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+    margin-bottom: -50px;
+}

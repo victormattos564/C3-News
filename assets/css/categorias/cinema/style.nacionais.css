@@ -1,0 +1,216 @@
+#section_1 {
+    display: flex;
+    margin-bottom: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+#section_2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
+   margin-left: 60px ;
+    
+}
+
+.flip_card {
+    background-color: transparent;
+    width: 250px;
+    height: 375px;
+    margin-right: 40px;
+    height: 200px;
+    perspective: 1000px;
+
+}
+
+.flip_card_inner {
+    position: relative;
+    width: 250px;
+    height: 375px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    -webkit-box-shadow: 5px 5px 19px 1px rgba(67, 67, 67, 0.58);
+    box-shadow: 5px 5px 19px 1px rgba(67, 67, 67, 0.58);
+    border-radius: 20px;
+
+}
+
+.flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+
+}
+
+.flip_card_front,
+.flip_card_back {
+    position: absolute;
+    width: 250px;
+
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.fçip_card_front {
+    color: black;
+}
+
+.flip_card_back {
+    color: black;
+    transform: rotateY(180deg)
+}
+
+img {
+    border-radius: 20px;
+}
+
+.flip_card_back h1,
+p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.flip_card_front_elite{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/nacionais/download.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+.flip_card_front_volta{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/nacionais/14\ filmes\ alternativos\ para\ estudar\ história\ e\ atualidades.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_cidade{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/nacionais/cidade\ de\ deus\ \(fernando\ meirelles\,\ 2002\)\ poster\ design_\ good\ question_\ rights\ to\ Buena\ Vista\ International_.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+
+.flip_card_front_carandiru {
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/nacionais/Carandiru-\ Filme\ completo-\ Filmes\ Online\ br.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_auto{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/nacionais/O\ AUTO\ DA\ COMPADECIDA.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_eu {
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/nacionais/Hoje\ eu\ quero\ voltar\ sozinho.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+.flip_card_front_47 {
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/nacionais/A\ ESTRADA\ 47.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_mae{
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/nacionais/Minha\ Mae\ e\ uma\ Peca\ \ \ 🇧🇷.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+* {
+    margin:0 ;
+    padding: 0;
+}
+
+
+@media screen and (max-width:700px){
+    #header {
+        width:100%;
+        padding:0px;
+    }
+    #footer {
+        width: 100%;
+        height: 1150px;
+        margin-bottom: -2000px;
+    }
+    #containerArticle {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1px;
+    }
+    #section_1 {
+        display: flex;
+        flex-direction: column; 
+        margin-top: -250px;  
+        margin-left: 68px;
+        margin-right: auto;
+    }
+    .flip_card {
+        margin-top: 70%;
+    }
+    #section_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -300px;
+        margin-bottom: -600px;
+        margin-left: 68px;
+        margin-right: auto;
+    }
+    #pa4{
+        font-size: 12px;   
+       }
+       #header {
+        display: none;
+    }
+
+    #teste {
+        width: 100%;
+    }
+}
+@media (min-width: 700px) {
+    #teste {
+        display: none;
+    }
+}

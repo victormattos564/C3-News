@@ -1,0 +1,484 @@
+/* ediçao do h1 */
+
+h1 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    width: 100%;
+}
+
+#p_2{
+    text-align: justify;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+/*ediçao do p */
+#intr{
+   
+    background-color: white;
+}
+#todas_noticias{
+    margin-left: 13%;
+}
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+/*ediça do boddy*/
+body {
+    background-color: #ffff;
+    margin: 0;
+}
+
+/*ediçao da imagem*/
+#imgsobrenos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* ediçao imagem sobre nos */
+#section_imgsobrenos {
+    text-align: center;
+    padding-top:80px;
+}
+
+/* ediçao sobre nos*/ 
+.section_sobrenos {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+}
+
+/* ediçao div vestibular */
+#div_vestibular{
+    display: flex;
+    padding: 10px;
+}
+
+/* ediçao section vestibular */
+.section_vestibular {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+}
+
+/* ediçao div vestibular */
+#div_vestibular {
+    display: flex;
+    padding: 10px;
+}
+
+/* ediçao titulo do vestibular */
+#title_vestibular {
+    text-align: center;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+    text-align: justify;
+}
+
+/* ediçao o que é */
+.section_oqueé {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+/* ediçao para que serve */
+.div_pqserve {
+    display: flex;
+    text-align: center;
+}
+
+/* ediçao das diferenças */
+.text_diferença {
+    text-align: justify;
+    text-align: center;
+}
+
+/* ediçao dos metodos */
+#title_metodos {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:80px;
+}
+
+/* ediçao vestibular */
+.section_vestibular:hover {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 2s;
+    transform: scale(1.1);
+    -webkit-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.75);
+}
+
+/* ediçao do gif */
+#section_gif {
+    text-align: center;
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    margin-left: 330px;
+}
+
+/* ediçao footer */
+#footer {
+    height: 550px;
+}
+
+/* ediçao noticias */
+.section_noticias {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 940px;
+    margin-left: 15px;
+}
+
+/* ediçao categorias */
+.title_categorias {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+    border-radius: 42px;
+    border: 4px solid #32425b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 9px 9px;
+    text-decoration: none;
+    margin-right: 550px;
+}
+
+/* ediçao titulo das categorias */
+.title_categorias:hover {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+}
+
+/* ediçao titulo das categorias */
+.title_categorias:active {
+    position: relative;
+    top: 1px;
+}
+
+/* ediçao imagem text */
+.img_textN {
+    display: flex;
+}
+
+/* ediçao imagem das noticias */
+.img_noticias {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+/*ediçao texto noticias*/
+.text_noticias {
+    padding-left: 15px;
+    color: gray;
+}
+
+/* ediçao icone */
+.icon_text {
+    display: flex;
+}
+
+/* ediçao imagens estrela */
+.img_stars {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+/* ediçao texto date */
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+
+/* ediçao texto publicado*/
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+
+/* ediçao section vestibular*/
+.section_vestibular {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+}
+
+/*ediçao do background */
+#section_background {
+    background-image: url("../../../images/Vestibular/vestibularbanner.png");
+    margin-top: -115px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 600px;
+}
+
+/*ediçao do texto central */
+#texto-central {
+    padding-top: 200px;
+    text-align: center;
+}
+
+/*ediçao do titulo */
+
+#title_vestibular{
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+    text-align: justify;
+}
+/* ediçao section noticias */
+.section_noticias {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 940px;
+    margin-left: 15px;
+}
+/* ediçao imagem noticias */
+.img_noticias {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ediçao de imagem */
+.img_textN {
+    display: flex;
+}
+/* ediçao texto noticias */
+.text_noticias {
+    padding-left: 15px;
+    color: gray;
+}
+/* ediçao publicado texto */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+/* ediçao icone */
+.icon_text {
+    display: flex;
+}
+/* ediçao da imagem das estrelas*/
+.img_stars {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+/* ediçao texto data*/
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+/* ediçao titulo das categorias */
+.title_categorias {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+    border-radius: 42px;
+    border: 4px solid #32425b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 9px 9px;
+    text-decoration: none;
+    margin-right: 550px;
+}
+/* ediçao categorias titulo */
+.title_categorias:hover {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+}
+/* ediçao da categoria titulo */
+.title_categorias:active {
+    position: relative;
+    top: 1px;
+}
+/* ediçao da noticia titulos */
+.title_noticias {
+    text-align: left;
+}
+/* remoçao do hiperlink */
+a {
+    text-decoration: none;
+}
+.title_categorias{
+    margin-left: 3%;
+}
+/*final das ediçoes do css*/
+/* Estilos para dispositivos móveis */
+@media(max-width: 767px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+    #intr{
+        background-color: #ffffff;
+        width: 90%;
+        margin-top: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+  #article_comentarios{
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+
+  }
+  #fm{
+    width: 80%;
+  }
+  .borda_comentarios{
+    width: 80%;
+  }
+
+#footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 1150px;
+}
+#header {
+    width: 100%;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    overflow-x: auto;
+
+
+}
+#section_background{
+ width: 100%;
+ margin-bottom: -100%;
+ margin-top: 15%;
+
+} 
+#todas_noticias{
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.section_noticias{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#estreilas{
+    display: flex;
+    margin-left: 33%;
+    margin-bottom: 4%;
+}
+.icon_text{
+    display: flex;
+    flex-direction: column;
+   margin-left: -15%;
+}
+#section_gif{
+    margin-left: 25%;
+    width: 100%;
+}
+#title_vestibular{
+    width: 90%;
+}
+#p_2{
+   
+    width: 80%;
+    margin-left: 10%;
+}
+.text_publicado{
+    margin-left: -10%;
+}
+.title_categorias{
+    margin: 0;
+}
+#section_gif{
+    width: 80%;
+    margin-right: -30%;
+}
+.img_textN{
+    display: flex;
+    flex-direction: column;
+}
+.text_publicado{
+    margin-left: -40%;
+}
+.img_noticias{
+    margin-left: 20%;
+}
+.text_noticias{
+    margin-left: -7%;
+}
+#header{
+    display: none;
+}
+#teste{
+    width: 100%;
+}
+
+  } 
+  @media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
+}

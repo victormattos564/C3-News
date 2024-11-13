@@ -1,0 +1,350 @@
+/* ediçao do h1 */
+h1 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-family: Arial;
+}
+/* ediçao do paragrafo */
+p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: medium;
+}
+/* ediçao do body */
+body {
+    margin: 0;
+}
+/* ediçao imagem o que é */
+#imgoqueé {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+/* ediçao section imagem o que é */
+#section_imgoqueé {
+    text-align: center;
+    padding-top:80px;
+}
+/* ediçao section o que é */
+.section_oqueé {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    font-size: medium;
+    display: flex;
+}
+/* ediçao div o que é */
+#div_oqueé {
+    display: flex;
+    padding: 10px;
+}
+/* ediçao section o que é */
+.section_oqueé2 {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+    font-family: Arial;
+    font-size: medium;
+}
+/* ediçao div o que é */
+#div_oqueé2 {
+    display: flex;
+    padding: 10px;
+}
+/* ediçao titulo o que é*/ 
+#title_oqueé {
+    text-align: center;
+    padding-left: 10px;
+    font-family: Arial;
+}
+/* ediçao background */
+#section_background {
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ediçao texto central*/
+#texto-central {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+/* ediçao p_1*/
+.p_1{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: medium;
+    padding-top: 15px;
+}
+
+/*ediçao imagem chapeu */
+#img_chapeu{
+    margin-left: 50px;
+}
+/* ediçao texto creditos */
+#text_credits {
+    color: gray;
+    font-size: 13px;
+
+}
+/* ediçao texto publicado */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+/* ediçao texto data */
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+/* ediçao section creditos*/
+#section_credits {
+    margin-left: 365px;
+    
+}
+/* ediçao h3*/
+h3 {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    font-family: Arial;
+    font-size: xx-large;
+    margin-top: -190px;
+    padding-bottom: 10px;
+    
+}
+/* ediçao section noticias */
+.section_noticias {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 940px;
+    margin-left: 15px;
+    color: black;
+}
+/* ediçao imagem noticias */
+.img_noticias {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* ediçao imagem textN*/
+.img_textN {
+    display: flex;
+}
+/* ediçao texto noticias*/
+.text_noticias {
+    padding-left: 15px;
+    color: gray;
+}
+/* ediçao texto publicado */
+.text_publicado {
+    padding-left: 205px;
+    padding-bottom: 15px;
+}
+/* ediçao icone */
+.icon_text {
+    display: flex;
+}
+/* ediçao imagem das estrelas */
+.img_stars {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+/* ediçao texto da data*/
+.text_date {
+    padding-left: 10px;
+    color: gray;
+}
+/* ediçao titulo das categorias */
+.title_categorias {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+    border-radius: 42px;
+    border: 4px solid #32425b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 9px 9px;
+    text-decoration: none;
+    margin-right: 550px;
+}
+/* ediçao titulo categorias */
+.title_categorias:hover {
+    background: linear-gradient(to bottom, #32425b 5%, #32425b 100%);
+    background-color: #32425b;
+}
+/* ediçao titulo categorias */
+.title_categorias:active {
+    position: relative;
+    top: 1px;
+}
+/* ediçao titulo das noticias */
+.title_noticias {
+    text-align: left;
+    color: black;
+}
+ /* remoçao do hiperlink */
+a {
+    text-decoration: none;
+}
+/* ediçao article comentarios */
+#article_comentarios {
+    display: flex;
+    margin-right: 45px;
+    margin-left: 16px;
+    margin-top: 220px;
+}
+/* ediçao borda dos comentarios */
+.borda_comentarios {
+    resize: none;
+   
+}
+ /* ediçao class h3*/
+.class_h3 {
+    margin-left: 45px;
+    font-family: arial;
+    padding-bottom: 20px;
+}
+#ari{
+    margin-left: 12%;
+}
+
+@media (max-width: 700px) {
+
+    #section_credits{
+
+        margin-left: 28%;
+
+    }
+    .section_oqueé{
+        width: 90%;
+        text-align: justify;
+    }
+    p{
+        text-align: justify;
+    }
+    .section_oqueé2{
+        width: 85%;
+        text-align: justify;
+    }
+
+#todas_noticias{
+    width: 100%;
+    margin-left: 2%;
+
+}
+.section_noticias{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -2%;
+}
+#estreilas{
+    display: flex;
+    margin-left: 38%;
+    margin-bottom: 4%;
+}
+.icon_text{
+    display: flex;
+    flex-direction: column;
+   margin-left: -15%;
+}
+.text_date{
+    margin-left: 41%;
+}
+#article_comentarios{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 50%;
+    margin-bottom: 5%;
+  }
+  #fm{
+    width: 80%;
+  }
+  .borda_comentarios{
+    width: 80%;
+  }
+  .class_h3{
+    margin-left: -20%;
+  }
+  #footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 1150px;
+}
+#div_pqserve{
+    display: flex;
+    flex-direction: column;
+}
+#pqserve{
+    margin-left: -25%;
+}
+#ardimg{
+    margin-left: -85%;
+    width: 100%;
+
+}
+.title_categorias{
+    margin-left: 23%;
+}
+.title_categorias{
+    margin-right: 50%;
+    margin-left: -60%;
+    width: 90%;
+}
+button{
+    width: 100%;
+    margin: 0%;
+}
+.textou{
+    width: 90%;
+}
+#ari{
+    width: 90%;
+    margin-left: 7%;
+    margin-right: 0%;
+}
+.img_textN{
+    display: flex;
+    flex-direction: column;
+}
+.text_publicado{
+    margin-left: -40%;
+}
+.img_noticias{
+    margin-left: 20%;
+}
+.text_noticias{
+    margin-left: -7%;
+}
+#header{
+    display: none;
+}
+#teste{
+    width: 100%;
+}
+
+  } 
+  @media (min-width: 700px) {
+    #teste{
+        display: none;
+    }
+}

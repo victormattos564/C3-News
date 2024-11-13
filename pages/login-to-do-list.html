@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/images/contato/logo.png" rel="stylesheet" width="200px" height="200px">
+    <link rel="stylesheet" href="../assets/css/login-to-do.css">
+    <script src="./../assets/js/login-to-do.js"></script>
+    <title>Valide a sua entradas</title>
+</head>
+<body>
+    <iframe id="header" src="../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+    <iframe src="../layouts/testeheadeer.html" frameborder="0" id="teste"></iframe>
+    <div class="container">
+       
+        <h2>Login</h2>
+        <div class="formulario">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="formulario">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+        <div id="aa">
+            <span id="versenha" class="ver" onclick="visualizarsenha()">😌</span>
+        </div>
+        </div>
+
+        <div class="formulario">
+            <input type="button" value="Entrar" onclick="login()">
+        </div>
+
+        <div id="mensagem" class="mensagem0" style="display: none;">Nome de usuário ou senha incorretos. Tente novamente.</div>
+    </div>
+    <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no" height="550px" width="100%"></iframe> 
+</body>
+</html>

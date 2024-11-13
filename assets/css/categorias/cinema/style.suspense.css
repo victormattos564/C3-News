@@ -1,0 +1,165 @@
+#section_1 {
+    display: flex;
+    margin-bottom: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
+
+#section_2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
+   margin-left: 60px ;
+    
+}
+
+.flip_card {
+    background-color: transparent;
+    width: 250px;
+    height: 375px;
+    margin-right: 40px;
+    height: 200px;
+    perspective: 1000px;
+
+}
+
+.flip_card_inner {
+    position: relative;
+    width: 250px;
+    height: 375px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    -webkit-box-shadow: 5px 5px 19px 1px rgba(67, 67, 67, 0.58);
+    box-shadow: 5px 5px 19px 1px rgba(67, 67, 67, 0.58);
+    border-radius: 20px;
+
+}
+
+.flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+
+}
+
+.flip_card_front,
+.flip_card_back {
+    position: absolute;
+    width: 250px;
+
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+}
+
+.fçip_card_front {
+    color: black;
+}
+
+.flip_card_back {
+    color: black;
+    transform: rotateY(180deg)
+}
+
+img {
+    border-radius: 20px;
+}
+
+.flip_card_back h1,
+p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.flip_card_front_menu{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/suspense/The\ Menu\ \(2022\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+.flip_card_front_poço{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/suspense/El\ Hoyo\ _\ O\ Poço\ -\ 10_10.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_preto{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/terror/telefone-preto.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+
+.flip_card_front_iluminado {
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/terror/Oiluminado.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_panico{
+    position: absolute;
+    width: 250px;
+    background-image: url("./../../../images/cinema/terror/panico.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_mal {
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/terror/Midsommar\ \(1\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+
+.flip_card_front_corra {
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/terror/Corra!.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.flip_card_front_nos{
+    position: absolute;
+    width: 250px;
+    background-image: url("../../../images/cinema/terror/nos.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+}
+* {
+    margin:0 ;
+    padding: 0;
+}

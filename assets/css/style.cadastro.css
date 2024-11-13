@@ -1,0 +1,144 @@
+body{
+    background-color: #ffffff;
+    margin:auto;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin: top 0;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -5px;
+}
+
+
+
+ #button {
+    text-align: center;
+    width: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   }
+   iframe {
+    margin: 0;
+   }
+
+   input{
+    margin-bottom: 5px;
+    
+    
+   }
+
+   form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    margin-top: 30px;
+    
+   }
+
+   #label2{
+    margin-right: 250px;
+   }
+
+   #label1 {
+    margin-right: 325px;
+   }
+
+   
+    #Enviar{
+        text-align: center;
+        width: 60px;
+        border-radius: 20px;
+        background-color: rgb(123, 175, 214);
+        border: white;
+        margin: auto;
+        margin-top: 5px;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    @media (min-width: 700px){
+        #teste{
+            display: none;
+        }
+    }
+    @media screen and (max-device-width: 900px) and (min-device-height:400px){
+        #header{
+            display: none;
+            }
+        #teste{
+                width: 100%;
+            }
+        #footer{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 1150px;
+        }
+     
+        h1{
+            text-align: center;
+        }
+        .colfooter{
+        margin: 0;
+        }
+        .titleFooter{
+            margin: 0;
+        }
+        .content{
+            margin: 0;
+            padding: 0;
+        }
+        .main_footer_copy{
+            padding: 0;
+        }
+        h3{
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            font-size: 20px;
+        }
+        p{
+            padding: 0;
+        }
+        #test{
+            width: 80%;
+            margin: 0;
+            padding-bottom: 15%;
+        }
+        input{
+            margin: 0;
+        }
+        form{
+            margin: 0;
+            width: 100%;
+            padding-left: 15%;
+            padding-top: 10%;
+        }
+        #Enviar{
+            width: 50%;
+        }
+    }
+   
+   

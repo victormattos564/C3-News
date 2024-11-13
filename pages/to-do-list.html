@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../assets/images/contato/logo.png" rel="stylesheet" width="200px" height="200px">
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/css/to-do.css">
+  <script src="../assets/js/to-do.js"></script>
+</head>
+
+<body>
+  <iframe id="header" src="../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+  <iframe src="../layouts/testeheadeer.html" frameborder="0" id="teste"></iframe>
+  <article id="inputs">
+    <h1 id="tit">Programador para a publicação de matérias:</h1>
+  <section id="adicionnot">
+    <div class="separator">
+      <div class="itensnot">
+        <div class="labeli">
+      <h1> Titulo:</h1>
+        </div>
+        <input type="text" id="titulo">
+      </div>
+      <div class="itensnot">
+        <div class="labeli">
+          <h1>Categoria:</h1>
+        </div>
+        <select id="categoria">
+          <option>Esportes</option>
+          <option>Tecnologia</option>
+          <option>Saúde e bem estar</option>
+          <option>Cinema</option>
+          <option>Vestibular</option>
+          <option>Música</option>
+        </select>
+      </div>
+      <br>
+      <div class="itensnot">
+        <div class="labeli">
+        <h1>Data:</h1>
+        </div>
+        <input type="date" id="data">
+      </div>
+      <br>
+      <div class="itensnot">
+        <div class="labeli">
+          <h1>Descrição:</h1>
+        </div>
+        <input type="text" id="descrição">
+      </div>
+      <br>
+      <div class="itensnot">
+        <div class="labeli">
+          <h1>Autor:</h1>
+        </div>
+        <input type="text" id="autor">
+      </div>
+      <br>
+      <div class="errorMsg">
+        <button onclick="adicionarnot()" id="addbut">adicionar</button>
+      </div>
+      <div class="errorMsg">
+        <p id="error"></p>
+      </div>  
+    </div>
+  </section>
+  </article>
+  <hr>
+  <article id="todos">
+
+  </article>
+ 
+  <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no" height="550px" width="100%"></iframe> 
+</body>
+
+</html>
